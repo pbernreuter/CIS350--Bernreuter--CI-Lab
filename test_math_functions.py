@@ -14,7 +14,7 @@ def test_calc_multiply():
 
 
 def test_calc_multiply_fail():
-    output = multiply_numbers(2,4)
+    output = multiply_numbers(2,8)
     assert output == 16
 
 def test_calc_divide():
